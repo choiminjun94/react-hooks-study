@@ -12,10 +12,17 @@
     함수의 두번째 파라미터로 비어있는 배열을 넣어주시면 됩니다
 
 ```javascript
-
          useEffect(() => {
-        console.log("마운트 될 때만 실행됩니다.");
+            console.log("마운트 될 때만 실행됩니다.");
         }, []);
-
 ```
+### :star2: useEffect  :start2: 
+    특정 값이 업데이트 될 때만 실행하고 싶을 때
+
+```javascript
+        useEffect(() => {
+            console.log(name);
+        }, [name]);
+```
+
 
