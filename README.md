@@ -1,5 +1,8 @@
-### react Hooks 공부 
+# react Hooks 공부 
 
-## useState
+### :star2: useState :star2:
     함수형 컴포넌트에서도 가변적인 상태를 지니고 있을 수 있게 해줍니다. 
     만약에 함수형 컴포넌트에서 상태를 관리해야 되는 일이 발생한다면 이 Hook 을 사용하시면 됩니다.
+
+### :star2: useEffect :star2: 
+    리액트 컴포넌트가 렌더링 될 때마다 특정 작업을 수행하도록 설정 할 수 있는 Hook 입니다.
