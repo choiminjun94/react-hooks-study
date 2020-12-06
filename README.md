@@ -11,8 +11,11 @@
     컴포넌트가 화면에 가장 처음 렌더링 될 때만 실행
     함수의 두번째 파라미터로 비어있는 배열을 넣어주시면 됩니다
 
-    ```javascript
+```javascript
+
          useEffect(() => {
         console.log("마운트 될 때만 실행됩니다.");
         }, []);
-    ```javascript
+
+```
+
