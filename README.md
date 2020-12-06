@@ -6,3 +6,13 @@
 
 ### :star2: useEffect :star2: 
     리액트 컴포넌트가 렌더링 될 때마다 특정 작업을 수행하도록 설정 할 수 있는 Hook 입니다.
+
+### :star2: useEffect  :start2: 
+    컴포넌트가 화면에 가장 처음 렌더링 될 때만 실행
+    함수의 두번째 파라미터로 비어있는 배열을 넣어주시면 됩니다
+
+    ```javascript
+         useEffect(() => {
+        console.log("마운트 될 때만 실행됩니다.");
+        }, []);
+    ```javascript
