@@ -87,6 +87,7 @@ const Info2 = () => {
   
   // 특정 값이 업데이트 될 때만 실행하고 싶을 때
   useEffect(() => {
+    console.log("이름 내역");
     console.log(name);
   }, [name]);
   //
