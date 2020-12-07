@@ -4,6 +4,7 @@ import Info from "./components/Info";
 import Info2 from "./components/Info2";
 import Info3 from "./components/Info3";
 import Counter2 from "./components/Counter2";
+import Average from "./components/Average";
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       {/* <Counter /> */}
       {/* <Info /> */}
       {/* <Info2/> */}
-      <Info3/>
+      {/* <Info3/> */}
       {/* <Counter2 /> */}
+      <Average/>
     </>
   );
 }
